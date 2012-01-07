@@ -1,16 +1,16 @@
 ## Pd library template version 1.0.10
 # For instructions on how to use this template, see:
 #  http://puredata.info/docs/developer/MakefileTemplate
-LIBRARY_NAME = helloworld
+LIBRARY_NAME = mtxmax
 
 # add your .c source files, one object per file, to the SOURCES
 # variable, help files will be included automatically, and for GUI
 # objects, the matching .tcl file too
-SOURCES = helloworld.c
+SOURCES = mtxmax.c
 
 # list all pd objects (i.e. myobject.pd) files here, and their helpfiles will
 # be included automatically
-PDOBJECTS = helloworld.pd
+PDOBJECTS = mtxmax.pd
 
 # example patches and related files, in the 'examples' subfolder
 EXAMPLES = bothtogether.pd
